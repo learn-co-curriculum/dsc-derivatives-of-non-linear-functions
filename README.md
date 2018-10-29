@@ -7,6 +7,8 @@ In the last lesson, we saw that the derivative was the rate of change, and that 
 
 ## Objectives
 
+You will be able to:
+
 * Understand that derivatives are the instantaneous rate of change of a function
 * Understand how to calculate a derivative 
 * Understand how to express taking a derivative at a given point, and evaluating a function at a given point mathematically
