@@ -67,7 +67,7 @@ So we saw previously that the derivative is the rate of change of our function. 
 
 For example, let's imagine that we are coaching our runner to perform in a track meet.  
 
-![](./sprint.gif)
+![](./images/sprint.gif)
 
 We may want to know how well our track start does at one part of the race, say the starting point, versus another point later in the race.  Then we will know what to focus on in practice.  We can imagine the distance travelled by our track star's distance through time as represented by the function $f(x) = x^2$: 
 
