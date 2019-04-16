@@ -3,7 +3,7 @@
 
 ## Introduction
 
-In the last lesson, we saw that the derivative was the rate of change, and that the derivative of a straight line is a constant. Let's explore non-linear functions and their derivatives in this lesson!
+In the last lesson, we saw that the derivative was the rate of change and that the derivative of a straight line is a constant. Let's explore non-linear functions and their derivatives in this lesson!
 
 ## Objectives
 
@@ -69,7 +69,7 @@ For example, let's imagine that we are coaching our runner to perform in a track
 
 ![](./images/sprint.gif)
 
-We may want to know how well our track start does at one part of the race, say the starting point, versus another point later in the race.  Then we will know what to focus on in practice.  We can imagine the distance travelled by our track star's distance through time as represented by the function $f(x) = x^2$: 
+We may want to know how well our track start does at one part of the race, say the starting point, versus another point later in the race.  Then we will know what to focus on in practice.  We can imagine the distance traveled by our track star's distance through time as represented by the function $f(x) = x^2$: 
 
 
 ```python
@@ -94,7 +94,7 @@ plt.show()
 
 
 ## Calculating speed at second two
-Now if we want to see how quickly our track star at the 2nd second as opposed to some other second, what would we do?  Well even if we knew nothing about derivatives, we would likely get a stop watch and at second 2 would use it to calculate the speed.  Let's say that we start our stopwatch at second 2 and stop our stopwatch one second later.
+Now if we want to see how quickly our track star at the 2nd second as opposed to some other second, what would we do?  Well even if we knew nothing about derivatives, we would likely get a stopwatch and at second 2 would use it to calculate the speed.  Let's say that we start our stopwatch at second 2 and stop our stopwatch one second later.
 
 
 ```python
@@ -182,7 +182,7 @@ If you were holding a stopwatch and someone asked you to calculate their speed a
 
 However, the mathematician has a solution to this. To calculate the rate of change at precisely one point, the solution is to use our imagination.  We calculate the derivative with a $\Delta $ of 1, then calculate it again with a $\Delta x$ of .1, then again with $\Delta x$ of .01, then again with $\Delta $ .001.  Our derivative calculation should show convergence on a single number as our $\Delta $ approaches zero and that number is our derivative.
 
-> ** The derivative of a function is a change in the function's output across $\Delta x$, as $\Delta x $ approaches zero **.    
+> ** The derivative of a function is a change in the function's output across $\Delta x$, as $\Delta x $ approaches zero. **    
 
 In this example, by decreasing $\Delta x$ we can see a fairly clear pattern.
 
@@ -280,7 +280,7 @@ Or, better yet, we can update and correct our definition of derivative to be:
 
 $$ f'(x) = \displaystyle {\lim_{ \Delta x \to0}} \frac{f(x + \Delta x) - f(x)}{\Delta x} $$ 
 
-So the derivative is the change in output as we *just nudge* our input.  That is how we calculate *instantaneous rate of change*.  We can determine the runners speed at precisely second number 2, by calculating the runner's speed over shorter and shorter periods of time, to see what that number approaches.
+So the derivative is the change in output as we *just nudge* our input.  That is how we calculate *instantaneous rate of change*.  We can determine the runner's speed at precisely second number 2, by calculating the runner's speed over shorter and shorter periods of time, to see what that number approaches.
 
 One final definition before we go.  Instead of $\Delta x$, mathematicians sometimes use the variable $h$ to describe the change in inputs.  So replacing our $\Delta x$ symbols with $h$'s we have:
 
@@ -290,4 +290,4 @@ Above is the formula for the derivative for all types of functions linear and no
 
 ## Summary
 
-In this section, we learned about derivatives.  A derivative is the instantaneous rate of change of a function.  To calculate the instantaneous rate of change of a function, we see the value that $\dfrac{\Delta y}{\Delta x} $ approaches as $\Delta x $ approaches zero.  This way, we are not calculating the rate of change of a function across a given distance.  Instead we are finding the rate of change at a specific moment. 
+In this section, we learned about derivatives.  A derivative is the instantaneous rate of change of a function.  To calculate the instantaneous rate of change of a function, we see the value that $\dfrac{\Delta y}{\Delta x} $ approaches as $\Delta x $ approaches zero.  This way, we are not calculating the rate of change of a function across a given distance.  Instead, we are finding the rate of change at a specific moment. 
