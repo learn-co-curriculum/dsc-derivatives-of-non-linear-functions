@@ -20,7 +20,7 @@ Let's have another look at our the plot you saw previously:
 
 ```python
 import matplotlib.pyplot as plt
-% matplotlib inline
+%matplotlib inline
 import numpy as np
 
 def jog(miles):
