@@ -63,7 +63,7 @@ $$ \frac{f(x + \Delta x) - f(x)}{\Delta x} $$
 
 ## A non-linear function
 
-So we saw previously that the derivative is the rate of change of our function.  We express this as $ f'(x) = \frac{\Delta f}{\Delta x}$. So far we have only calculated the derivatives with linear functions. As we'll see, things becomes trickier when working with more complicated functions.
+So we saw previously that the derivative is the rate of change of our function.  We express this as $ f'(x) = \frac{\Delta f}{\Delta x}$. So far we have only calculated the derivatives with linear functions. As we'll see, things become trickier when working with more complicated functions.
 
 For example, let's imagine that we are coaching our runner to perform in a track meet.  
 
@@ -178,7 +178,7 @@ In other words, **the runner would tell us** that we are not capturing their spe
 
 ## The solution: Decrease the change in $x$ ($\Delta x$)
 
-If you were holding a stopwatch and someone asked you to calculate their speed at second number 2, how could you be more accurate?  Well, you would want decrease the change in seconds.  Of course, our runner could continue to protest and say that we are still influenced by the speed at other times.
+If you were holding a stopwatch and someone asked you to calculate their speed at second number 2, how could you be more accurate?  Well, you would want to decrease the change in seconds.  Of course, our runner could continue to protest and say that we are still influenced by the speed at other times.
 
 However, the mathematician has a solution to this. To calculate the rate of change at precisely one point, the solution is to use our imagination.  We calculate the derivative with a $\Delta $ of 1, then calculate it again with a $\Delta x$ of .1, then again with $\Delta x$ of .01, then again with $\Delta $ .001.  Our derivative calculation should show convergence on a single number as our $\Delta $ approaches zero and that number is our derivative.
 
