@@ -9,9 +9,7 @@ In the last lesson, we saw that the derivative was the rate of change and that t
 
 You will be able to:
 
-* Understand that derivatives are the instantaneous rate of change of a function
-* Understand how to calculate a derivative 
-* Understand how to express taking a derivative at a given point, and evaluating a function at a given point mathematically
+* Calculate the derivative of a non-linear function
 
 ## Let's get started
 
@@ -274,11 +272,11 @@ As you can see, as $\Delta x $ approaches zero, $f'(2) $ approaches $ 4 $.
 
 So to describe the above, at the point $x = 2 $, the **limit** of $\dfrac{\Delta y}{\Delta x} $ -- that is the number that $\dfrac{\Delta y}{\Delta x} $ converges to as  $ \Delta x $ approaches zero -- is 4.  We can abbreviate this into the following expression: 
 
-When $x = 2, \displaystyle\lim_{\Delta x\to0} \frac{\Delta y}{\Delta x} = 4  $.
+When $x = 2, \displaystyle\lim_{\Delta x\to 0} \frac{\Delta y}{\Delta x} = 4  $.
 
 Or, better yet, we can update and correct our definition of derivative to be:
 
-$$ f'(x) = \displaystyle {\lim_{ \Delta x \to0}} \frac{f(x + \Delta x) - f(x)}{\Delta x} $$ 
+$$ f'(x) = \displaystyle {\lim_{ \Delta x \to 0}} \frac{f(x + \Delta x) - f(x)}{\Delta x} $$ 
 
 So the derivative is the change in output as we *just nudge* our input.  That is how we calculate *instantaneous rate of change*.  We can determine the runner's speed at precisely second number 2, by calculating the runner's speed over shorter and shorter periods of time, to see what that number approaches.
 
