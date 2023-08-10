@@ -1,4 +1,3 @@
-
 # Derivatives of Non-Linear Functions
 
 ## Introduction
@@ -46,7 +45,9 @@ plt.show()
 ```
 
 
+    
 ![png](index_files/index_6_0.png)
+    
 
 
 Where our function was given by $f(x)=6x$. We saw multiple ways of calculating the derivative:
@@ -85,7 +86,9 @@ plt.show()
 ```
 
 
+    
 ![png](index_files/index_12_0.png)
+    
 
 
 > The graph shows that from seconds zero through seven, our track runner gets faster over time.  
@@ -131,7 +134,9 @@ plt.show()
 ```
 
 
+    
 ![png](index_files/index_14_0.png)
+    
 
 
 As the graph above shows, we measure the change at second two by starting our stopwatch at second 2 and stopping it one second later.  So turning this into our formula for calculating a derivative of:  
@@ -235,7 +240,9 @@ make_plot(1)
 ```
 
 
+    
 ![png](index_files/index_30_0.png)
+    
 
 
 If our black dashed line had the same slope, or rate of change, as our function at that $x = 2$, it would just touch the blue line.  We know from above that we get closer to the rate of change of the function as we decrease $ \Delta x$ in our derivative formula. 
@@ -248,6 +255,7 @@ Below are the plots of our lines using our derivative formula for when  $\Delta 
 ```python
 x = np.linspace(1, 3.5, 100)
 fig, ax = plt.subplots(figsize=(10,8))
+ax.remove()
 
 # create 4 subplots
 plt.subplot(221)
@@ -261,7 +269,9 @@ make_plot(delta_a = 0.001)
 ```
 
 
+    
 ![png](index_files/index_33_0.png)
+    
 
 
 Going to the top left figure to the bottom right figure, you can see that for a smaller $\Delta x$, we get a more tangent line. This is particularly visible going from $\Delta x = 1$  to $\Delta x = .1$. This is no surprise, as the difference between a slope moving from 5 to 4.1 is still visible with the naked eye, but moving from 4.1 to 4.01 to 4.001 is fairly impossible to see. 
